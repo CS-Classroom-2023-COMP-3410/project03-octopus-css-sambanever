@@ -1,0 +1,107 @@
+/*body*/
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: black;
+  }
+  
+  /*header section*/
+  #header {
+    background-color: rgb(31, 99, 245);
+    color: white;
+    text-align: center;
+    padding: 20px 10px;
+  }
+  /*headers*/
+  #header h1 {
+    margin: 0;
+    font-size: 28px;
+  }
+  
+  #header p {
+    font-style: italic;
+    margin: 5px 0 0;
+  }
+  
+  /*sections*/
+  h2, h3, h4, h5, h6 {
+    font-weight: bold;
+  }
+  
+  
+  /*important*/
+  .important {
+    color: red;
+    font-weight: bold;
+  }
+  
+  /*links*/
+  a {
+    color: rgb(10, 55, 202);
+    margin-right: 1px;
+    
+  }
+
+  /*lists*/
+  li {
+    margin-bottom: 8px;
+  }
+  
+  /*quix*/
+  #quiz-section {
+    background-color: rgb(227, 245, 253);
+    padding: 20px;
+    border: 1px solid rgb(226, 226, 226);
+    margin: 20px;
+    position: relative;
+  }
+  
+  #quiz-section h2 {
+    margin-top: 0;
+  }
+  
+  #quiz-section img {
+    position: absolute;
+    top: 30px;
+    right: 40px;
+    width: 70px;
+    border: 3px solid rgb(117, 7, 243);
+    
+  }
+  
+  /*form*/
+  form input[type="text"] {
+    margin-bottom: 5px;
+  }
+  
+  
+  
+  /*table */
+  #species-table table {
+    width: 45%;
+    margin-top: 20px;
+  }
+  
+  #species-table th, #species-table td {
+    
+    padding: 8px;
+    text-align: left;
+  }
+  
+  #species-table th {
+    background-color: rgb(151, 151, 151);
+    color: white;
+  }
+  
+  /*footer*/
+  #footer {
+    background-color: rgb(226, 226, 226);
+    padding: 5px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 0.9em;
+  }
+  
